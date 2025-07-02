@@ -91,7 +91,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Digital exeperiences
+            Digital experiences
           </motion.p>
         </div>
       </div>
