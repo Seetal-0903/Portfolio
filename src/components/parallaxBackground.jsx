@@ -19,55 +19,7 @@ const ParallaxBackground = () => {
           loop
           muted
           playsInline
-        />
-        <div
-          className="absolute inset-0 w-full h-screen -z-50"
-          style={{
-            //backgroundImage: "url(/assets/back.png)",
-            backgroundPosition: "bottom",
-            backgroundSize: "cover",
-          }}
-        />
-        {/* Mountain Layer 3 */}
-        <motion.div
-          className="absolute inset-0 -z-40  "
-          style={{
-            //backgroundImage: "url(/assets/see_tal.png)",
-            backgroundPosition: "bottom",
-            backgroundSize: "cover",
-            y: mountain3Y,
-          }}
-        />
-        {/* Planets */}
-        <motion.div
-          className="absolute inset-0 -z-30"
-          style={{
-            //backgroundImage: "url(/assets/planets.png)",
-            backgroundPosition: "bottom",
-            backgroundSize: "cover",
-            x: planetsX,
-          }}
-        />
-        {/* Mountain Layer 2 */}
-        <motion.div
-          className="absolute inset-0 -z-20"
-          style={{
-            //backgroundImage: "url(/assets/mountain-2.png)",
-            backgroundPosition: "left",
-            backgroundSize: "cover",
-            y: mountain2Y,
-          }}
-        />
-        {/* Mountaine Layer 1 */}
-        <motion.div
-          className="absolute inset-0 -z-10"
-          style={{
-            //backgroundImage: "url(/assets/mountain-1.png)",
-            backgroundPosition: "bottom",
-            backgroundSize: "cover",
-            y: mountain1Y,
-          }} 
-        />
+        /> 
       </div>
     </section>
   );
