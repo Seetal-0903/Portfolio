@@ -1,7 +1,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/parallaxBackground";
-import  Photo  from "../components/photo";
+//import  Photo  from "../components/photo";
 import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
@@ -14,7 +14,7 @@ const Hero = () => {
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
       <HeroText />
       <ParallaxBackground />
-      <Photo />
+      
       <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
