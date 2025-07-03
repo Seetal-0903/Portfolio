@@ -4,11 +4,11 @@ import { AnimatePresence } from "framer-motion";
 
 const ResumeButton = () => {
   const [downloaded, setDownloaded] = useState(false);
-  const resumePath = "/assets/CV_SeetalPanda.pdf"; 
+  const resumePath = "/assets/Seetal_Panda_Resume.pdf"; 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumePath;
-    link.download = "CV_SeetalPanda.pdf";
+    link.download = "Seetal_Panda_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
