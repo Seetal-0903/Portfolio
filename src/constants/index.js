@@ -52,7 +52,7 @@ export const myProjects = [
       "Deployed using Render with testing via Postman API.",
       
     ],
-    href: "",
+    href: "https://github.com/Seetal-0903/NALCO_n8n_project.git",
     logo: "/assets/logos/github.svg",
     image: "/assets/projects/document.jpg",
     tags: [
@@ -85,7 +85,7 @@ export const myProjects = [
       "Used WebSockets for real-time communication and Docker for containerized deployment.",
       
     ],
-    href: "",
+    href: "https://github.com/Seetal-0903/Quantum_Space_communication.git",
     logo: "/assets/logos/github.svg",
     image: "/assets/projects/quantum.jpg",
     tags: [
